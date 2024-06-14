@@ -7,37 +7,7 @@ annotation4 = np.load("Data_tests/Annotated times/time_ranges_subject_4.npy", al
 annotation5 = np.load("Data_tests/Annotated times/time_ranges_subject_5.npy", allow_pickle=True)
 annotation7 = np.load("Data_tests/Annotated times/time_ranges_subject_7.npy", allow_pickle=True)
 annotation6 = np.array([
-    ['0', '1.4', 'N'],
-    ['1.4', '2.6', 'A'],
-    ['2.6', '4.8', 'B'],
-    ['4.8', '6', 'C'],
-    ['6', '7.5', 'B'],
-    ['7.5', '8.8', 'A'],
-    ['8.8', '11.3', 'N'],
-    ['11.3', '12.6', 'A'],
-    ['12.6', '13.6', 'B'],
-    ['13.6', '14.3', 'C'],
-    ['14.3', '15.7', 'B'],
-    ['15.7', '17.6', 'A'],
-    ['17.6', '18.4', 'N'],
-    ['18.4', '19.2', 'A'],
-    ['19.2', '20.3', 'B'],
-    ['20.3', '21.3', 'C'],
-    ['21.3', '22.5', 'B'],
-    ['22.5', '23.5', 'A'],
-    ['23.5', '24.5', 'N'],
-    ['24.5', '25.4', 'A'],
-    ['25.4', '26.7', 'B'],
-    ['26.7', '27.7', 'C'],
-    ['27.7', '29', 'B'],
-    ['29', '30', 'A'],
-    ['30', '31.4', 'N'],
-    ['31.4', '32.1', 'A'],
-    ['32.1', '33.3', 'B'],
-    ['33.3', '34.4', 'C'],
-    ['34.4', '35.8', 'B'],
-    ['35.8', '37', 'A'],
-    ['37', '38.1', 'N']
+   
 ])
 
 annotation_matrices = [annotation2, annotation3, annotation4, annotation5, annotation6, annotation7]
